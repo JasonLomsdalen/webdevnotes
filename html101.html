@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML5 101</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>HTML</h1>
+	<div id="Menu">
+		<a href="index.html" name="Home">Home</a>
+		<a href="html101.html" name="HTML">HTML</a>
+		<a href="css101.html" name="CSS">CSS</a>
+	</div>
+	<h2>Heading &lth2&gt</h2>
+	<h3>Heading &lth3&gt</h3>
+	<h4>Heading &lth4&gt</h4>
+	<h5>Heading &lth5&gt</h5>
+	<h6>Heading &lth6&gt</h6>
+	<h4><strong>HTML Template</strong></h4>
+	<p>Type 'html' and press tab</p>
+	<h4><strong>Paragraphs</strong></h4>
+	<p>Use &ltp&gt for a block of text.</p>
+	<h4><strong>Text Filler</strong></h4>
+	<p>If you write 'lorem' and press tab you get:</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<h4><strong>Bold</strong></h4>
+	<p>If you want something bold put &ltstrong&gt around it.</p>
+	<h4><strong><em>Italics</em></strong></h4>
+	<p>If you want italics put &ltem&gt to emphasize text.</p>
+	<h4><strong>Lists</strong></h4>
+	<p>List Items &ltli&gt</p>
+	<p>Ordered list &ltol&gt</p>
+	<ol>
+		<li>First</li>
+		<li>Second</li>
+		<li>Third</li>
+	</ol>
+	<p>Unordered List &ltul&gt</p>
+	<ul>
+		<li>Item 1</li>
+		<li>Item 2</li>
+		<ul>
+			<li>Sub Item 2</li>
+			<li>Sub Item 2</li>
+		</ul>
+		<li>Item 3</li>
+	</ul>
+	<h4><strong>Self Closing HTML tags</strong></h4>
+	<p>Line break &ltbr&gt</p>
+	<p>Horizontal line &lthr&gt</p>
+	<h4><strong>Images</strong></h4>
+	<p>In the &ltimg&gt tag specify the src, you can also give image width and height</p>
+	<img src="ocean.jpeg" width=600 height=347>
+	<h4><strong>Anchor - Links</strong></h4>
+	<p>In the &lta&gt tag specify href=newpage.html</p>
+	<a href="newpage.html">Link to mynew page!</a><br>
+	<a href="https://www.google.com">Google.com</a>
+	<h4><strong>Forms</strong></h4>
+	<p>&ltform&gt tags and inside have &ltinput&gt where you specify type {text, email, password, date, radio, checkbox, submit, reset, etc}</p>
+	<p>To make a field required add the field 'required' to input</p>
+	<!-- Can use GET or POST -->
+	<form method="GET">
+		First Name: <input type="text" name="firstName" required><br>
+		Last Name: <input type="text" name="lastName" required><br>
+		Email: <input type="email" name="email" required><br>
+		Password <input type="password" min="5" name="password" required><br>
+		Date: <input type="date" name="date" required><br>
+		Radio: <br>
+		<input type="radio" name="option" value="Option 1">Option 1<br>
+		<input type="radio" name="option" value="Option 2">Option 2<br>
+		<input type="radio" name="option" value="Option 3">Option 3<br>
+		Checkbox: <br>
+		<input type="checkbox" name="item1">Item 1<br>
+		<input type="checkbox" name="item2">Item 2<br>
+		<input type="checkbox" name="item3">Item 3<br>
+		Dropdown Menu:<br>
+		<select name="Values">
+			<option value="value 1" name="value1">Value 1</option>
+			<option value="value 2" name="value2">Value 2</option>
+		</select><br>
+		<input type="submit" name="Submit">
+		<input type="reset" name="">
+	</form>
+	<h4><strong>Divide Content</strong></h4>
+	<p>&ltdiv&gt allows us to divide content into sections which is useful later when trying to apply styles to certain sections with CSS</p>
+	<p>Is a block element</p>
+	<h4><strong>Span</strong></h4>
+	<p>&ltspan&gt tags around specific text or element allows us to apply styles to just that item</p>
+	<p>Is an inline element</p>
+</body>
+</html>

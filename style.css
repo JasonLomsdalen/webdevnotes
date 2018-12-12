@@ -1,0 +1,26 @@
+/*Selector {
+	Property: value;
+}*/
+body {
+	background: #E4C37F
+}
+h1 {
+	color : #BA4C49;
+	text-align: center;
+	border-bottom: 3px solid #BA4C49
+}
+#menu {
+	list-style: none; 
+	display: inline-block; 
+	word-spacing: 1em;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+/*ul {
+	word-spacing: 1em;
+}
+li {
+	list-style: none;
+	display: inline-block;
+}*/
